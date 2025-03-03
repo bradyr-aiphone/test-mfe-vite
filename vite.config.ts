@@ -15,4 +15,7 @@ export default ({ command }: { command: string }) =>
         spaEntryPoints: "src/spa.tsx",
       }),
     ],
+    build: {
+      sourcemap: true, // Enable sourcemaps
+    },
   });
